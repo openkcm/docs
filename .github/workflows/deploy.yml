@@ -1,4 +1,4 @@
-name: Deploy Docs
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
@@ -9,20 +9,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Needed for deploying full history
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build and Deploy
+      - name: Build and deploy
         env:
+          GIT_USER: github-actions
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy
