@@ -35,13 +35,13 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Configure Git identity
+      - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "openkcm[bot]@users.noreply.github.com"
           git config --global user.name "openkcm[bot]"
-
-      - name: Deploy to GitHub Pages
+          npm run deploy
         env:
-          GIT_USER: github-actions
+          GIT_USER: openkcm[bot]
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-        run: npm run deploy
+          USE_SSH: false
+          DEPLOYMENT_URL: https://${{ steps.generate-token.outputs.token }}@github.com/openkcm/docs.git
