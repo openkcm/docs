@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'OpenKCM Docs',
   tagline: 'OpenKCM',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -70,7 +70,7 @@ const config = {
         title: 'OpenKCM',
         logo: {
           alt: 'OpenKCM',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
