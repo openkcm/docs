@@ -65,7 +65,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'OpenKCM',
         logo: {
@@ -102,18 +102,18 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/openkcm',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/openkcm',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/openkcm',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/openkcm',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/openkcm',
+              // },
+              // {
+              //   label: 'X',
+              //   href: 'https://x.com/openkcm',
+              // },
             ],
           },
           {

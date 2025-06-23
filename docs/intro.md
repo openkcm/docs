@@ -4,44 +4,67 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+OpenKCM - Key Chain Manager Service
 
-## Getting Started
+## 📘 What is OpenKCM?
 
-Get started by **creating a new site**.
+**OpenKCM** (Open Key Chain Manager) is a secure, scalable, and open-source Key Management Service (KMS) tailored to meet the growing demands of data protection in modern cloud environments. It helps organizations manage cryptographic keys efficiently while ensuring compliance with stringent security and privacy standards.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+## 🌍 Why Use OpenKCM?
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+As enterprises increasingly store sensitive data in the cloud, **robust encryption practices** are critical. OpenKCM enables organizations to:
 
-## Generate a new site
+- 🛡️ **Protect data at rest** using strong encryption keys
+- 🔐 **Create, manage, and control** encryption keys across services and regions
+- 📊 **Ensure compliance** with jurisdictional and regulatory requirements
 
-Generate a new Docusaurus site using the **classic template**.
+OpenKCM provides a centralized solution to govern encryption keys, allowing fine-grained control, auditability, and flexibility in key usage policies.
 
-The classic template will automatically be added to your project after you run the command:
+---
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## 🧩 Key Features
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+| Feature                       | Description                                                      |
+| ----------------------------- | ---------------------------------------------------------------- |
+| 🔁 Key Hierarchies            | Organize keys by technical service, provider, and region         |
+| 🗝️ BYOK (Bring Your Own Key) | Import your own encryption keys                                  |
+| 🔐 HYOK (Hold Your Own Key)   | Store and control master keys within your own infrastructure     |
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
+## 🎯 Who Should Use OpenKCM?
 
-Run the development server:
+OpenKCM is ideal for:
 
-```bash
-cd my-website
-npm run start
-```
+- Cloud-native organizations handling **regulated or sensitive data**
+- Enterprises requiring **key lifecycle management** with regional awareness
+- SaaS platforms seeking **BYOK/HYOK integration** for their customers
+- Developers building **compliant, encrypted storage solutions**
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 🚀 Getting Started
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+In pregress, to be defined!
+
+---
+
+## 🔧 Example Use Cases
+
+- Encrypting customer PII stored in multi-region object storage
+- Managing keys for distributed applications with BYOK
+- Enforcing HYOK for data sovereignty in sensitive sectors (e.g., healthcare, finance)
+- Creating revocable encryption access for SaaS tenant data
+
+---
+
+## 🛡️ Final Thoughts
+
+OpenKCM puts organizations in control of their encryption strategies. With built-in support for advanced key management models like BYOK and HYOK, jurisdiction-aware architecture, and seamless integration, OpenKCM helps you enforce encryption where it matters most—**under your control**.
+
+> "Take command of your cryptographic keys, ensure compliance, and secure your data with confidence."
+
+---
+
