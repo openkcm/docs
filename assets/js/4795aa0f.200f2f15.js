@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenkcm_docs=self.webpackChunkopenkcm_docs||[]).push([[978],{3937:e=>{e.exports=JSON.parse('{"authors":[{"name":"OpenKCM Team","title":"Core Maintainers of OpenKCM","url":"https://github.com/openkcm","imageURL":"https://openkcm.github.io/docs/img/logo.png","key":"openkcm","page":null,"count":1}]}')}}]);

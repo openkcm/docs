@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://openkcm.github.io/docs/blog</id>
+    <title>OpenKCM Docs Blog</title>
+    <updated>2025-06-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://openkcm.github.io/docs/blog"/>
+    <subtitle>OpenKCM Docs Blog</subtitle>
+    <icon>https://openkcm.github.io/docs/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the OpenKCM Blog]]></title>
+        <id>https://openkcm.github.io/docs/blog/welcome</id>
+        <link href="https://openkcm.github.io/docs/blog/welcome"/>
+        <updated>2025-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the OpenKCM blog! 👋]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the <strong>OpenKCM</strong> blog! 👋</p>
+<p>We're excited to launch this space where we’ll share updates, insights, tutorials, and progress on the OpenKCM project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-is-openkcm">🧠 What is OpenKCM?<a href="https://openkcm.github.io/docs/blog/welcome#-what-is-openkcm" class="hash-link" aria-label="Direct link to 🧠 What is OpenKCM?" title="Direct link to 🧠 What is OpenKCM?">​</a></h2>
+<p><strong>OpenKCM</strong> is an open-source initiative focused on building a modern and transparent Key Chain Manager (KCM) solution. Our goal is to empower organizations and communities with tools to model, structure, and evolve knowledge effectively — with clarity and openness at the core.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-a-blog">📣 Why a Blog?<a href="https://openkcm.github.io/docs/blog/welcome#-why-a-blog" class="hash-link" aria-label="Direct link to 📣 Why a Blog?" title="Direct link to 📣 Why a Blog?">​</a></h2>
+<p>This blog will help us:</p>
+<ul>
+<li>Share development updates and release notes</li>
+<li>Publish guides and technical deep dives</li>
+<li>Highlight use cases and community contributions</li>
+<li>Keep you informed about upcoming features and roadmaps</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-next">🚀 What's Next?<a href="https://openkcm.github.io/docs/blog/welcome#-whats-next" class="hash-link" aria-label="Direct link to 🚀 What's Next?" title="Direct link to 🚀 What's Next?">​</a></h2>
+<p>Stay tuned for:</p>
+<ul>
+<li>Deep dives into our architecture and design decisions</li>
+<li>Integration tutorials and real-world usage examples</li>
+<li>Opportunities to contribute and collaborate</li>
+</ul>
+<p>We're just getting started, and we’d love your feedback. Feel free to open issues, suggest features, or contribute directly via <a href="https://github.com/openkcm" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p>Thanks for joining us on this journey. Let’s build something great together!</p>
+<p>— The OpenKCM Team</p>]]></content>
+        <author>
+            <name>OpenKCM Team</name>
+            <uri>https://github.com/openkcm</uri>
+        </author>
+        <category label="Welcome" term="Welcome"/>
+        <category label="Announcement" term="Announcement"/>
+    </entry>
+</feed>

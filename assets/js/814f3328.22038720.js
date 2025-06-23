@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenkcm_docs=self.webpackChunkopenkcm_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to the OpenKCM Blog","permalink":"/docs/blog/welcome","unlisted":false,"date":"2025-06-23T00:00:00.000Z"}]}')}}]);
