@@ -53,7 +53,10 @@ const config = {
           routeBasePath: '/',             // 🟢 Serve docs at root
           sidebarPath: require.resolve('./sidebars.js')
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          routeBasePath: 'blog',          // Blog available at /blog
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         },
